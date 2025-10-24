@@ -1,0 +1,38 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+<h2>🎁 Sistema de Canje de Códigos</h2>
+
+<p>En nuestro servidor puedes canjear <strong>códigos especiales</strong> que te otorgarán recompensas exclusivas, como Tibia Coins u otros objetos. Esta es una funcionalidad desarrollada dentro del juego y completamente segura.</p>
+
+<h3>🔑 ¿Qué son los códigos?</h3>
+<ul>
+    <li>Consisten en una combinación única de 10 caracteres.</li>
+    <li>Son generados por el equipo del servidor y distribuidos en eventos, sorteos o promociones.</li>
+    <li>Cada código tiene una recompensa asociada y solo puede utilizarse una vez.</li>
+</ul>
+
+<h3>💡 ¿Cómo canjear un código?</h3>
+<ol>
+    <li>Inicia sesión en el juego con tu personaje.</li>
+    <li>Escribe <code>!code XXXXXXXXXX</code> en el chat.</li>
+    <li>Deberas reemplazar las XXXXXXXXXX por el codigo proporcionado.</li>
+    <li>Si el código es válido y no ha sido utilizado, recibirás tu recompensa automáticamente.</li>
+</ol>
+
+<h3>🛡️ Seguridad y validación</h3>
+<ul>
+    <li>El código se elimina del sistema inmediatamente después de ser usado.</li>
+    <li>Se registra quién lo utilizó y cuándo.</li>
+    <li>Existen codigos que pueden ser utilizados por más de un jugador, auque generalmente son codigos de 1 solo uso.</li>
+</ul>
+
+<h3>📌 Reglas importantes</h3>
+<ul>
+    <li>No compartas tu código con otros jugadores.</li>
+    <li>El equipo del servidor no se responsabiliza por códigos mal escritos.</li>
+    <li>Los códigos solo son válidos dentro del juego, no se pueden canjear en esta web.</li>
+</ul>
+
+<p>¡Gracias por jugar y buena suerte canjeando tus recompensas!</p>
+{% endblock %}
